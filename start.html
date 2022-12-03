@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cepho</title>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap & css file -->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="Css/home.css">
+</head>
+
+<body>
+
+  
+  <div class="navbar-box">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg text-black">
+        <div class="container mx-auto">
+          <!-- <img src="Img/ceph_con.png" class="icon" /> -->
+          <a class="navbar-brand me-4" href="#"><i class="fa-solid fa-tooth pe-2"></i><h3 class="d-inline-block">CephAnalysis</h3></a>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="upload.html">Upload X-ray Image</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="Repository.html">Repository</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Help.html">Help</a>
+              </li>
+    
+            </ul>
+            <ul class="navbar-nav d-flex ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Sign Up</a>
+              </li>
+            </ul>
+    
+          </div>
+    
+          
+    
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+
+  <div class="getting-start p-5">
+    <div class="container mx-auto my-5">
+      <div class="row">
+  
+        <div class="col-md-6">
+          <img src="Img/IMG-20221115-WA0002_auto_x2_auto_x2.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-md-6 intro  d-flex justify-content-center align-items-center text-center">
+          <div class="">
+          
+            <div>
+              <h1>Cephalometric Analysis</h1>
+            <p class="p-4"> CephAnalysis is an innovative DL driven online orthodontic and orthognathic platform for dental clinicians.</p>
+
+             
+            </div>
+
+              <div class=" mx-5">
+                <div class="row main-buttons mt-4 d-flex justify-content-center align-items-center text-center">
+                  <div class="col-5" id="main_button_1" >
+                    <a class="btn btn-block btn-hover color-3 btn-lg" role="button">Join for Free »</a>                   
+                  </div>
+                  <div class="col-5" id="main_button_2" >
+                    <a class="btn btn-block border-gradient color-1 btn-lg " role="button">Log in</a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  <div id="particles-js" class="position-relavive d-flex justify-content-center">
+
+    <div id="details" class="home position-absolute vh-100">
+      <div class="container d-flex justify-content-center align-items-center">
+          <div class="row">
+              <section id="singers" class="text-center p-5">
+                  <h2>Frequently asked questions</h2>
+                  <p>Browse through our explanations</p>
+                  <h3>Who are we?</h3>
+                  <div style="display: block;" id="first" class="open-nav">
+                    We are biomedical engineering students who developed a web application that incorporate deep learning technology to help dentists make 
+                better decision and significantly reduce their workload.
+                  </div>
+  
+  
+                  <h3>What is patient Identifier</h3>
+                  <div style="display: none;" class="open-nav">
+
+                    Patient identifier needs to be written before the image is sent to tracing. Most usualy this is going to be the patient name, 
+                    family name, DOB or only registration number or other identifier in patient records. 
+                  </div>
+  
+  
+                  <h3>What happens when uploading image?</h3>
+                  <div style="display: none;" class="open-nav">
+
+                   WebCeph will take the image and send the result of our analysis in the result page. 
+                  </div>
+  
+  
+                  <h3>What type of image should upload?</h3>
+                  <div style="display: none;" class="open-nav">
+
+                       CephAnalysis accepts different types of raster formats such as for example: jpg, png and also 2D Dicom format. 
+                  </div>
+              </section>
+          </div>
+      </div>
+  </div>
+    
+  </div>
+
+
+
+
+
+
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <script src="Js/particles.min.js"></script>
+  <script src="Js/main.js"> </script>
+</body>
+
+</html>
